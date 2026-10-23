@@ -1,0 +1,28 @@
+#BlueJ class context
+#Fri Oct 23 00:00:47 COT 2026
+comment0.target=OperacionesMilitares
+comment0.text=\r\n Write a description of class OperacionesMilitares here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=OperacionesMilitares()
+comment10.params=Fecha
+comment10.target=void setFecha(java.lang.String)
+comment11.target=int getNumeroDeEfectivos()
+comment12.params=numeroDeEfectivos
+comment12.target=void setNumeroDeEfectivos(int)
+comment13.target=Estado getEstado()
+comment14.params=estado
+comment14.target=void setEstado(Estado)
+comment15.target=java.lang.String toString()
+comment16.target=int calcularComplejidad()
+comment2.params=codigo nombreDeLaOperacion zona Fecha numeroDeEfectivos estado
+comment2.target=OperacionesMilitares(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, Estado)
+comment3.target=java.lang.String getCodigo()
+comment4.params=codigo
+comment4.target=void setCodigo(java.lang.String)
+comment5.target=java.lang.String getNombreDeLaOperacion()
+comment6.params=nombreDeLaOperacion
+comment6.target=void setNombreDeLaOperacion(java.lang.String)
+comment7.target=java.lang.String getZona()
+comment8.params=zona
+comment8.target=void setZona(java.lang.String)
+comment9.target=java.lang.String getFecha()
+numComments=17
