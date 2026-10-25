@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Oct 25 00:18:06 COT 2026
+comment0.target=GestionRiesgos
+comment0.text=\r\n Write a description of class GestionRiesgos here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=GestionRiesgos()
+comment2.params=r
+comment2.target=boolean agregarRiesgo(Riesgo)
+comment3.params=codigo
+comment3.target=Riesgo buscarPorCodigo(java.lang.String)
+comment4.params=codigo
+comment4.target=boolean eliminarRiesgo(java.lang.String)
+comment5.target=java.lang.String listarRiesgos()
+numComments=6
