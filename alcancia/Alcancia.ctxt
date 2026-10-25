@@ -1,0 +1,16 @@
+#BlueJ class context
+#Fri Oct 23 00:03:48 COT 2026
+comment0.target=Alcancia
+comment0.text=\r\n Write a description of class Alcancia here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Alcancia()
+comment10.target=void vaciar()
+comment2.params=valor
+comment2.target=boolean agregarMonedas(int)
+comment3.target=int getSaldo()
+comment4.target=int getTotalMonedas()
+comment5.target=int getMonedas50()
+comment6.target=int getMonedas100()
+comment7.target=int getMonedas200()
+comment8.target=int getMonedas500()
+comment9.target=int getMonedas1000()
+numComments=11
