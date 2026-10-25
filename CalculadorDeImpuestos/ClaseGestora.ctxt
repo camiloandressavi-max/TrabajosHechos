@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Oct 25 16:53:04 COT 2026
+comment0.target=ClaseGestora
+comment0.text=\r\n Write a description of class ClaseGestora here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=ClaseGestora()
+comment2.params=marca linea modelo valor
+comment2.target=void agregarVehiculo(java.lang.String, java.lang.String, int, double)
+comment3.params=linea
+comment3.target=java.lang.String buscarPorLinea(java.lang.String)
+comment4.params=marca
+comment4.target=Vehiculo buscarPorMarca(java.lang.String)
+comment5.target=Vehiculo buscarVehiculoMasCaro()
+comment6.params=vehiculo prontoPago trasladoCuenta servicioPublico
+comment6.target=double calcularImpuesto(Vehiculo, boolean, boolean, boolean)
+numComments=7
