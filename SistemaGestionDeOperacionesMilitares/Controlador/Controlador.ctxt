@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Oct 28 17:29:33 COT 2026
+comment0.target=Controlador
+comment1.params=vista sistema
+comment1.target=Controlador(Vista.JFTOperaciones, Modelo.SistemaGestion)
+comment2.params=e
+comment2.target=void actionPerformed(java.awt.event.ActionEvent)
+numComments=3

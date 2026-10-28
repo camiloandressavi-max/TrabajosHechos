@@ -1,0 +1,15 @@
+#BlueJ class context
+#Wed Oct 28 17:12:04 COT 2026
+comment0.target=OperacionMaritima
+comment0.text=\r\n Write a description of class OperacionMaritima here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=cantidadEmbarcaciones areaMaritima codigo nombreDeLaOperacion zona Fecha numeroDeEfectivos estado
+comment1.target=OperacionMaritima(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, Estado)
+comment2.target=int getCantidadEmbarcaciones()
+comment3.params=cantidadEmbarcaciones
+comment3.target=void setCantidadEmbarcaciones(int)
+comment4.target=java.lang.String getAreaMaritima()
+comment5.params=areaMaritima
+comment5.target=void setAreaMaritima(java.lang.String)
+comment6.target=int calcularComplejidad()
+comment7.target=java.lang.String toString()
+numComments=8

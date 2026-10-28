@@ -1,0 +1,24 @@
+#BlueJ class context
+#Wed Oct 28 17:28:12 COT 2026
+comment0.target=JFTOperaciones
+comment1.target=JFTOperaciones()
+comment10.target=java.lang.String getHorasEstimadasStr()
+comment11.target=java.lang.String getCantidadEmbarcacionesStr()
+comment12.target=java.lang.String getAreaMaritima()
+comment13.target=java.lang.String getTipoTerreno()
+comment14.target=java.lang.String getCantidadVehiculosStr()
+comment15.target=java.lang.String getCodigoBusqueda()
+comment16.params=texto
+comment16.target=void mostrarResultados(java.lang.String)
+comment17.target=void limpiarFormulario()
+comment18.params=listener
+comment18.target=void agregarListeners(java.awt.event.ActionListener)
+comment2.target=void crearInterfaz()
+comment3.target=java.lang.String getTipoOperacion()
+comment4.target=java.lang.String getCodigo()
+comment5.target=java.lang.String getNombre()
+comment6.target=java.lang.String getZona()
+comment7.target=java.lang.String getFecha()
+comment8.target=java.lang.String getEfectivosStr()
+comment9.target=java.lang.String getNumAeronavesStr()
+numComments=19
