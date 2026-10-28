@@ -1,0 +1,12 @@
+#BlueJ class context
+#Tue Oct 27 23:54:26 COT 2026
+comment0.target=ProductosCanasta
+comment0.text=\r\n Write a description of class ProductosCanasta here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=ProductosCanasta()
+comment2.params=valor
+comment2.target=ProductosCanasta(int)
+comment3.target=int getValor()
+comment4.params=valorCanasta
+comment4.target=void setValor(int)
+comment5.target=java.lang.String toString()
+numComments=6

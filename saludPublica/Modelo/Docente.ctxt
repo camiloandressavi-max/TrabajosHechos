@@ -1,0 +1,22 @@
+#BlueJ class context
+#Wed Oct 28 00:17:25 COT 2026
+comment0.target=Docente
+comment0.text=\r\n Write a description of class Docente here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Docente()
+comment10.params=tecno
+comment10.target=void setTecno(java.util.ArrayList)
+comment11.target=java.lang.String toString()
+comment12.target=Bono getBonoPorPersona()
+comment2.params=tipoDocumento documento nombre apellido direccion telefono edad estrato estadoCivil cabezaHogar institucion nivel
+comment2.target=Docente(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)
+comment3.target=java.lang.String getInstitucion()
+comment4.params=institucion
+comment4.target=void setInstitucion(java.lang.String)
+comment5.target=java.lang.String getNivel()
+comment6.params=nivel
+comment6.target=void setNivel(java.lang.String)
+comment7.target=java.util.ArrayList getServicio()
+comment8.params=servicio
+comment8.target=void setServicio(java.util.ArrayList)
+comment9.target=java.util.ArrayList getTecno()
+numComments=13

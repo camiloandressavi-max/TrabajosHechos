@@ -1,0 +1,12 @@
+#BlueJ class context
+#Wed Oct 28 00:17:25 COT 2026
+comment0.target=Ciudadano
+comment0.text=\r\n Write a description of class Ciudadano here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Ciudadano()
+comment2.params=tipoDocumento documento nombre apellido direccion telefono edad estrato estadoCivil cabeza bono
+comment2.target=Ciudadano(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, boolean, Bono)
+comment3.target=java.util.ArrayList getMedicina()
+comment4.target=java.util.ArrayList getProductos()
+comment5.target=java.lang.String toString()
+comment6.target=Bono getBonoPorPersona()
+numComments=7
