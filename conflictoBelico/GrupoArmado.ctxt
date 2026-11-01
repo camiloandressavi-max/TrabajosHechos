@@ -1,0 +1,7 @@
+#BlueJ class context
+#Wed Oct 21 09:02:57 COT 2026
+comment0.target=GrupoArmado
+comment0.text=\r\n Write a description of class GrupoArmado here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=division
+comment1.target=void sumaBajas(Division)
+numComments=2

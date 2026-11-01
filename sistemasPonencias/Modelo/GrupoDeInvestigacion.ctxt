@@ -1,0 +1,27 @@
+#BlueJ class context
+#Wed Oct 28 09:15:17 COT 2026
+comment0.target=GrupoDeInvestigacion
+comment0.text=\r\n Write a description of class GrupoDeInvestigacion here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=GrupoDeInvestigacion()
+comment10.params=director
+comment10.target=void setDirector(Profesor)
+comment11.target=java.util.ArrayList getIntegrantes()
+comment12.params=integrantes
+comment12.target=void setIntegrantes(java.util.ArrayList)
+comment13.target=java.util.ArrayList getEstudiantes()
+comment14.params=estudiantes
+comment14.target=void setEstudiantes(java.util.ArrayList)
+comment15.target=java.lang.String toString()
+comment2.params=investigacion nombre clasificacion director
+comment2.target=GrupoDeInvestigacion(LineaDeInvestigacion, java.lang.String, Clasificacion, Profesor)
+comment3.target=LineaDeInvestigacion getInvestigacion()
+comment4.params=investigacion
+comment4.target=void setInvestigacion(LineaDeInvestigacion)
+comment5.target=java.lang.String getNombre()
+comment6.params=nombre
+comment6.target=void setNombre(java.lang.String)
+comment7.target=Clasificacion getClasificacion()
+comment8.params=clasificacion
+comment8.target=void setClasificacion(Clasificacion)
+comment9.target=Profesor getDirector()
+numComments=16

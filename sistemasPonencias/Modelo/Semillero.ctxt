@@ -1,0 +1,13 @@
+#BlueJ class context
+#Wed Oct 28 09:32:32 COT 2026
+comment0.target=Semillero
+comment0.text=\r\n Write a description of class Semillero here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Semillero()
+comment2.target=java.util.ArrayList getEstudiante()
+comment3.params=estudiante
+comment3.target=void setEstudiante(java.util.ArrayList)
+comment4.target=java.util.ArrayList getPonente()
+comment5.params=ponente
+comment5.target=void setPonente(java.util.ArrayList)
+comment6.target=java.lang.String toString()
+numComments=7

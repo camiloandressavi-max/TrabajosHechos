@@ -1,0 +1,18 @@
+#BlueJ class context
+#Wed Oct 28 09:22:01 COT 2026
+comment0.target=Profesor
+comment0.text=\r\n Write a description of class Profesor here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Profesor()
+comment2.params=materia categoria
+comment2.target=Profesor(java.lang.String, Categoria)
+comment3.target=java.lang.String getMateria()
+comment4.params=materia
+comment4.target=void setMateria(java.lang.String)
+comment5.target=Categoria getCategoria()
+comment6.params=categoria
+comment6.target=void setCategoria(Categoria)
+comment7.target=java.util.ArrayList getGrupos()
+comment8.params=grupos
+comment8.target=void setGrupos(java.util.ArrayList)
+comment9.target=java.lang.String toString()
+numComments=10

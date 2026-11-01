@@ -1,0 +1,15 @@
+#BlueJ class context
+#Wed Oct 28 09:30:42 COT 2026
+comment0.target=Estudiantes
+comment0.text=\r\n Write a description of class Estudiantes here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Estudiantes()
+comment2.params=grado semillero
+comment2.target=Estudiantes(java.lang.String, Semillero)
+comment3.target=java.lang.String getGrado()
+comment4.params=grado
+comment4.target=void setGrado(java.lang.String)
+comment5.target=Semillero getSemillero()
+comment6.params=semillero
+comment6.target=void setSemillero(Semillero)
+comment7.target=java.lang.String toString()
+numComments=8

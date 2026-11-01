@@ -1,0 +1,21 @@
+#BlueJ class context
+#Wed Oct 28 09:15:17 COT 2026
+comment0.target=Persona
+comment0.text=\r\n Write a description of class Persona here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Persona()
+comment10.params=institucion
+comment10.target=void setInstitucion(java.lang.String)
+comment11.target=java.lang.String toString()
+comment2.params=nombre cedula correo institucion
+comment2.target=Persona(java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+comment3.target=java.lang.String getNombre()
+comment4.params=nombre
+comment4.target=void setNombre(java.lang.String)
+comment5.target=java.lang.String getCedula()
+comment6.params=cedula
+comment6.target=void setCedula(java.lang.String)
+comment7.target=java.lang.String getCorreo()
+comment8.params=correo
+comment8.target=void setCorreo(java.lang.String)
+comment9.target=java.lang.String getInstitucion()
+numComments=12

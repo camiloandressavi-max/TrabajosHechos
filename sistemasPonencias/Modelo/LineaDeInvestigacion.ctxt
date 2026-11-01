@@ -1,0 +1,11 @@
+#BlueJ class context
+#Wed Oct 28 09:15:17 COT 2026
+comment0.target=LineaDeInvestigacion
+comment0.text=\r\n Write a description of class LineaDeInvestigacion here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=LineaDeInvestigacion()
+comment2.params=ponencia
+comment2.target=LineaDeInvestigacion(Ponencia)
+comment3.target=Ponencia getPonencia()
+comment4.params=ponencia
+comment4.target=void setPonencia(Ponencia)
+numComments=5
