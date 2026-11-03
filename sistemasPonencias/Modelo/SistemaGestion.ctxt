@@ -1,0 +1,11 @@
+#BlueJ class context
+#Tue Nov 03 18:21:29 COT 2026
+comment0.target=SistemaGestion
+comment1.params=g
+comment1.target=void registrarGrupo(GrupoDeInvestigacion)
+comment2.params=p
+comment2.target=void registrarPonencia(Ponencia)
+comment3.target=java.lang.String consultarTodo()
+comment4.params=nombre
+comment4.target=GrupoDeInvestigacion buscarGrupo(java.lang.String)
+numComments=5

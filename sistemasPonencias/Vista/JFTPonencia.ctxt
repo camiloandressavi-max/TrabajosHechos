@@ -1,0 +1,16 @@
+#BlueJ class context
+#Tue Nov 03 18:22:23 COT 2026
+comment0.target=JFTPonencia
+comment1.target=JFTPonencia()
+comment10.params=listener
+comment10.target=void agregarListeners(java.awt.event.ActionListener)
+comment2.target=void crearInterfaz()
+comment3.target=java.lang.String getNombreGrupo()
+comment4.target=java.lang.String getDirectorGrupo()
+comment5.target=java.lang.String getLineaInvestigacion()
+comment6.target=java.lang.String getTituloPonencia()
+comment7.target=java.lang.String getTipoPonencia()
+comment8.params=mensaje
+comment8.target=void mostrarMensaje(java.lang.String)
+comment9.target=void limpiarFormulario()
+numComments=11
