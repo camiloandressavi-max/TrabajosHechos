@@ -1,0 +1,17 @@
+#BlueJ class context
+#Wed Nov 11 12:02:08 COT 2026
+comment0.target=Gestor
+comment1.target=Gestor()
+comment2.params=r
+comment2.target=boolean agregarRecuerdos(Recuerdo)
+comment3.params=e
+comment3.target=boolean agregarEventos(Evento)
+comment4.params=e
+comment4.target=boolean agregarEmociones(Emocion)
+comment5.params=codigo
+comment5.target=Recuerdo buscarRecuerdo(java.lang.String)
+comment6.params=nombre
+comment6.target=Emocion buscarEmocion(java.lang.String)
+comment7.params=nombre
+comment7.target=Evento buscarEvento(java.lang.String)
+numComments=8

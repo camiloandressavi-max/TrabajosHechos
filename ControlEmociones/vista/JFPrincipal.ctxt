@@ -1,0 +1,27 @@
+#BlueJ class context
+#Wed Nov 11 12:02:55 COT 2026
+comment0.target=JFPrincipal
+comment1.target=JFPrincipal()
+comment10.target=javax.swing.JTextField getTxtNombre()
+comment11.target=javax.swing.JTextField getTxtIntensidad()
+comment12.target=javax.swing.JTextField getTxtTipo()
+comment13.target=javax.swing.JTextField getTxtNombreEvento()
+comment14.target=javax.swing.JTextField getTxtImpacto()
+comment15.target=javax.swing.JComboBox getCTipoEvento()
+comment16.target=javax.swing.JTextArea getTxtSalida()
+comment16.text=GET Method Propertie txtSalida
+comment17.target=javax.swing.JTextField getTxtAccion()
+comment17.text=GET Method Propertie txtAccion
+comment18.target=javax.swing.JTextField getTxtEstado()
+comment18.text=GET Method Propertie txtEstado
+comment19.target=javax.swing.JComboBox getCTipo()
+comment19.text=GET Method Propertie cTipo
+comment2.target=javax.swing.JButton getBtnAgregarRecuerdo()
+comment3.target=javax.swing.JButton getBtnAgregarEmocion()
+comment4.target=javax.swing.JButton getBtnAgregarEvento()
+comment5.target=javax.swing.JTextField getTxtCodigo()
+comment6.target=javax.swing.JTextField getTxtDescripcion()
+comment7.target=javax.swing.JTextField getTxtFecha()
+comment8.target=javax.swing.JTextField getTxtEmocion()
+comment9.target=javax.swing.JTextField getTxtEvento()
+numComments=20

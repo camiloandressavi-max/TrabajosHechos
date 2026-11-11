@@ -1,0 +1,31 @@
+#BlueJ class context
+#Wed Nov 11 12:02:08 COT 2026
+comment0.target=Emocion
+comment1.params=nombre intesidad tipo accion estadoActual
+comment1.target=Emocion(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String)
+comment10.target=java.lang.String getEstadoActual()
+comment10.text=GET Method Propertie estadoActual
+comment11.params=estadoActual
+comment11.target=void setEstadoActual(java.lang.String)
+comment11.text=SET Method Propertie estadoActual
+comment2.target=java.lang.String getNombre()
+comment2.text=GET Method Propertie nombre
+comment3.params=nombre
+comment3.target=void setNombre(java.lang.String)
+comment3.text=SET Method Propertie nombre
+comment4.target=int getIntesidad()
+comment4.text=GET Method Propertie intesidad
+comment5.params=intesidad
+comment5.target=void setIntesidad(int)
+comment5.text=SET Method Propertie intesidad
+comment6.target=java.lang.String getTipo()
+comment6.text=GET Method Propertie tipo
+comment7.params=tipo
+comment7.target=void setTipo(java.lang.String)
+comment7.text=SET Method Propertie tipo
+comment8.target=java.lang.String getAccion()
+comment8.text=GET Method Propertie accion
+comment9.params=accion
+comment9.target=void setAccion(java.lang.String)
+comment9.text=SET Method Propertie accion
+numComments=12

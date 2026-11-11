@@ -1,0 +1,21 @@
+#BlueJ class context
+#Wed Nov 11 12:02:08 COT 2026
+comment0.target=Evento
+comment1.params=nombre tipo impacto
+comment1.target=Evento(java.lang.String, java.lang.String, java.lang.String)
+comment2.target=java.lang.String getNombre()
+comment2.text=GET Method Propertie nombre
+comment3.params=nombre
+comment3.target=void setNombre(java.lang.String)
+comment3.text=SET Method Propertie nombre
+comment4.target=java.lang.String getTipo()
+comment4.text=GET Method Propertie tipo
+comment5.params=tipo
+comment5.target=void setTipo(java.lang.String)
+comment5.text=SET Method Propertie tipo
+comment6.target=java.lang.String getImpacto()
+comment6.text=GET Method Propertie impacto
+comment7.params=impacto
+comment7.target=void setImpacto(java.lang.String)
+comment7.text=SET Method Propertie impacto
+numComments=8

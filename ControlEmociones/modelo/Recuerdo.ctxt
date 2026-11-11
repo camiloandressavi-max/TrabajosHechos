@@ -1,0 +1,31 @@
+#BlueJ class context
+#Wed Nov 11 12:02:08 COT 2026
+comment0.target=Recuerdo
+comment1.params=codigo descripcion fecha emocion evento
+comment1.target=Recuerdo(java.lang.String, java.lang.String, java.lang.String, Emocion, Evento)
+comment10.target=java.lang.String getCodigo()
+comment10.text=GET Method Propertie codigo
+comment11.params=codigo
+comment11.target=void setCodigo(java.lang.String)
+comment11.text=SET Method Propertie codigo
+comment2.target=java.lang.String getDescripcion()
+comment2.text=GET Method Propertie descripcion
+comment3.params=descripcion
+comment3.target=void setDescripcion(java.lang.String)
+comment3.text=SET Method Propertie descripcion
+comment4.target=java.lang.String getFecha()
+comment4.text=GET Method Propertie fecha
+comment5.params=fecha
+comment5.target=void setFecha(java.lang.String)
+comment5.text=SET Method Propertie fecha
+comment6.target=Emocion getEmocion()
+comment6.text=GET Method Propertie emocion
+comment7.params=emocion
+comment7.target=void setEmocion(Emocion)
+comment7.text=SET Method Propertie emocion
+comment8.target=Evento getEvento()
+comment8.text=GET Method Propertie evento
+comment9.params=evento
+comment9.target=void setEvento(Evento)
+comment9.text=SET Method Propertie evento
+numComments=12
