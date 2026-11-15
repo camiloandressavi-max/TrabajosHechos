@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Nov 15 17:12:11 COT 2026
+comment0.target=ClaseGestora
+comment1.target=ClaseGestora()
+comment2.target=java.util.ArrayList getClientes()
+comment3.params=clientes
+comment3.target=void setClientes(java.util.ArrayList)
+comment4.target=java.util.ArrayList getProductos()
+comment5.params=productos
+comment5.target=void setProductos(java.util.ArrayList)
+comment6.target=java.util.ArrayList getPedidos()
+comment7.params=pedidos
+comment7.target=void setPedidos(java.util.ArrayList)
+comment8.target=double calcularTotalPedido()
+numComments=9

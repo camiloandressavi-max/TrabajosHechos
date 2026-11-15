@@ -9,27 +9,28 @@ package Modelo;
  */
 public class Cliente
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Cliente
-     */
-    public Cliente()
-    {
-        // initialise instance variables
-        x = 0;
+    private String cedula;
+    private String nombreCliente;
+    
+    public Cliente(String cedula, String nombreCliente){
+        this. cedula= cedula;
+        this.nombreCliente= nombreCliente;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public String getCedula(){
+        return cedula;
     }
+    
+    public void setCedula(String Cedula){
+        this.cedula= cedula;
+    }
+    
+    public String getNombreCliente(){
+        return nombreCliente;
+    }
+    
+    public void setNombre(String nombreCliente){
+        this.nombreCliente= nombreCliente;
+    }
+    
 }

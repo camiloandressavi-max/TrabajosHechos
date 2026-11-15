@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Nov 15 17:12:11 COT 2026
+comment0.target=Producto
+comment0.text=\r\n Write a description of class Prodcuto here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=codigo nombreProducto precio
+comment1.target=Producto(java.lang.String, java.lang.String, double)
+comment2.target=java.lang.String getCodigo()
+comment3.params=codigo
+comment3.target=void setCodigo(java.lang.String)
+comment4.target=java.lang.String getNombreProducto()
+comment5.params=nombreProducto
+comment5.target=void setNombreProducto(java.lang.String)
+comment6.target=double getPrecio()
+comment7.params=precio
+comment7.target=void setDouble(java.lang.Double)
+numComments=8
