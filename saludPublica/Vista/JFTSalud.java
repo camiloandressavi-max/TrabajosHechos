@@ -1,13 +1,11 @@
 package Vista;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import Modelo.*;
-import java.util.ArrayList;
 
-public class JFTSalud extends JFrame implements ActionListener, ItemListener {
+public class JFTSalud extends JFrame  {
     
-    private GestorPersona gestor = new GestorPersona();
     
     private JLabel lblTipoDoc = new JLabel("Tipo Documento");
     private JLabel lblDocumento = new JLabel("Documento");
@@ -142,10 +140,6 @@ public class JFTSalud extends JFrame implements ActionListener, ItemListener {
         principal.add(izq);
         principal.add(der);
         
-        btnGuardar.addActionListener(this);
-        btnLimpiar.addActionListener(this);
-        btnBuscar.addActionListener(this);
-        
         txtInstitucion.setEnabled(false);
         txtEspecialidad.setEnabled(false);
         cmbNivel.setEnabled(false);
@@ -153,134 +147,219 @@ public class JFTSalud extends JFrame implements ActionListener, ItemListener {
         docente.setVisible(false);
         ciudadano.setVisible(false);
 
-        cmbTipo.addItemListener(this);
         add(principal); 
     }
 
-    @Override
-    public void itemStateChanged(ItemEvent e) {
-        if (e.getSource() == cmbTipo && e.getStateChange() == ItemEvent.SELECTED) {
-            String seleccionado = (String) cmbTipo.getSelectedItem();
-        
-            txtInstitucion.setEnabled(false);
-            txtEspecialidad.setEnabled(false);
-            cmbNivel.setEnabled(false);
-            profSalud.setVisible(false);
-            docente.setVisible(false);
-            ciudadano.setVisible(false);
-            
-            if ("Profesional de Salud".equals(seleccionado)) {
-                txtInstitucion.setEnabled(true);
-                txtEspecialidad.setEnabled(true);
-                profSalud.setVisible(true); 
-            } else if ("Docente".equals(seleccionado)) {
-                txtInstitucion.setEnabled(true);
-                cmbNivel.setEnabled(true); 
-                docente.setVisible(true);  
-            } else if ("Ciudadano".equals(seleccionado)) {
-                ciudadano.setVisible(true); 
-            }
-        }
+    public JComboBox<String> getCmbTipoDoc() {
+        return cmbTipoDoc;
+    }
+
+    public void setCmbTipoDoc(JComboBox<String> cmbTipoDoc) {
+        this.cmbTipoDoc = cmbTipoDoc;
+    }
+
+    public JTextField getTxtDocumento() {
+        return txtDocumento;
+    }
+
+    public void setTxtDocumento(JTextField txtDocumento) {
+        this.txtDocumento = txtDocumento;
+    }
+
+    public JTextField getTxtNombre() {
+        return txtNombre;
+    }
+
+    public void setTxtNombre(JTextField txtNombre) {
+        this.txtNombre = txtNombre;
+    }
+
+    public JTextField getTxtApellido() {
+        return txtApellido;
+    }
+
+    public void setTxtApellido(JTextField txtApellido) {
+        this.txtApellido = txtApellido;
+    }
+
+    public JTextField getTxtDireccion() {
+        return txtDireccion;
+    }
+
+    public void setTxtDireccion(JTextField txtDireccion) {
+        this.txtDireccion = txtDireccion;
+    }
+
+    public JTextField getTxtTelefono() {
+        return txtTelefono;
+    }
+
+    public void setTxtTelefono(JTextField txtTelefono) {
+        this.txtTelefono = txtTelefono;
+    }
+
+    public JTextField getTxtEdad() {
+        return txtEdad;
+    }
+
+    public void setTxtEdad(JTextField txtEdad) {
+        this.txtEdad = txtEdad;
+    }
+
+    public JTextField getTxtEstrato() {
+        return txtEstrato;
+    }
+
+    public void setTxtEstrato(JTextField txtEstrato) {
+        this.txtEstrato = txtEstrato;
+    }
+
+    public JTextField getTxtEstadoCivil() {
+        return txtEstadoCivil;
+    }
+
+    public void setTxtEstadoCivil(JTextField txtEstadoCivil) {
+        this.txtEstadoCivil = txtEstadoCivil;
+    }
+
+    public JComboBox<String> getCmbTipo() {
+        return cmbTipo;
+    }
+
+    public void setCmbTipo(JComboBox<String> cmbTipo) {
+        this.cmbTipo = cmbTipo;
+    }
+
+    public JTextField getTxtInstitucion() {
+        return txtInstitucion;
+    }
+
+    public void setTxtInstitucion(JTextField txtInstitucion) {
+        this.txtInstitucion = txtInstitucion;
+    }
+
+    public JTextField getTxtEspecialidad() {
+        return txtEspecialidad;
+    }
+
+    public void setTxtEspecialidad(JTextField txtEspecialidad) {
+        this.txtEspecialidad = txtEspecialidad;
+    }
+
+    public JComboBox<String> getCmbNivel() {
+        return cmbNivel;
+    }
+
+    public void setCmbNivel(JComboBox<String> cmbNivel) {
+        this.cmbNivel = cmbNivel;
+    }
+
+    public JCheckBox getChkCabezaHogar() {
+        return chkCabezaHogar;
+    }
+
+    public void setChkCabezaHogar(JCheckBox chkCabezaHogar) {
+        this.chkCabezaHogar = chkCabezaHogar;
+    }
+
+    public JButton getBtnGuardar() {
+        return btnGuardar;
+    }
+
+    public void setBtnGuardar(JButton btnGuardar) {
+        this.btnGuardar = btnGuardar;
+    }
+
+    public JButton getBtnLimpiar() {
+        return btnLimpiar;
+    }
+
+    public void setBtnLimpiar(JButton btnLimpiar) {
+        this.btnLimpiar = btnLimpiar;
+    }
+
+    public JButton getBtnBuscar() {
+        return btnBuscar;
+    }
+
+    public void setBtnBuscar(JButton btnBuscar) {
+        this.btnBuscar = btnBuscar;
+    }
+
+    public JPanel getProfSalud() {
+        return profSalud;
+    }
+
+    public void setProfSalud(JPanel profSalud) {
+        this.profSalud = profSalud;
+    }
+
+    public JPanel getDocente() {
+        return docente;
+    }
+
+    public void setDocente(JPanel docente) {
+        this.docente = docente;
+    }
+
+    public JPanel getCiudadano() {
+        return ciudadano;
+    }
+
+    public void setCiudadano(JPanel ciudadano) {
+        this.ciudadano = ciudadano;
+    }
+
+    public JTextField getTxtBioseguridad() {
+        return txtBioseguridad;
+    }
+
+    public void setTxtBioseguridad(JTextField txtBioseguridad) {
+        this.txtBioseguridad = txtBioseguridad;
+    }
+
+    public JTextField getTxtMedicina1() {
+        return txtMedicina1;
+    }
+
+    public void setTxtMedicina1(JTextField txtMedicina1) {
+        this.txtMedicina1 = txtMedicina1;
+    }
+
+    public JTextField getTxtImplementosTec() {
+        return txtImplementosTec;
+    }
+
+    public void setTxtImplementosTec(JTextField txtImplementosTec) {
+        this.txtImplementosTec = txtImplementosTec;
+    }
+
+    public JTextField getTxtServicioInternet() {
+        return txtServicioInternet;
+    }
+
+    public void setTxtServicioInternet(JTextField txtServicioInternet) {
+        this.txtServicioInternet = txtServicioInternet;
+    }
+
+    public JTextField getTxtMedicina2() {
+        return txtMedicina2;
+    }
+
+    public void setTxtMedicina2(JTextField txtMedicina2) {
+        this.txtMedicina2 = txtMedicina2;
+    }
+
+    public JTextField getTxtCanastaFamiliar() {
+        return txtCanastaFamiliar;
+    }
+
+    public void setTxtCanastaFamiliar(JTextField txtCanastaFamiliar) {
+        this.txtCanastaFamiliar = txtCanastaFamiliar;
+    }
     }
     
-    public void limpiarFormulario() {
-        cmbTipoDoc.setSelectedIndex(0);
-        txtDocumento.setText("");
-        txtNombre.setText("");
-        txtApellido.setText("");
-        txtDireccion.setText("");
-        txtTelefono.setText("");
-        txtEdad.setText("");
-        txtEstrato.setText("");
-        txtEstadoCivil.setText("");
-        cmbTipo.setSelectedIndex(0);
-        txtInstitucion.setText("");
-        txtEspecialidad.setText("");
-        cmbNivel.setSelectedIndex(0);
-        chkCabezaHogar.setSelected(false);
-        
-        txtBioseguridad.setText("");
-        txtMedicina1.setText("");
-        txtImplementosTec.setText("");
-        txtServicioInternet.setText("");
-        txtMedicina2.setText("");
-        txtCanastaFamiliar.setText("");
-        
-        txtDocumento.requestFocus();
-    }
+
     
-    public void actionPerformed(ActionEvent e) {
-        String c = e.getActionCommand();
-       
-        
-        if (c.equals("Guardar")) {
-            String tipoDoc = (String) cmbTipoDoc.getSelectedItem();
-            String documento = txtDocumento.getText();
-            String nombre = txtNombre.getText();
-            String apellido = txtApellido.getText();
-            String direccion = txtDireccion.getText();
-            String telefono = txtTelefono.getText();
-            
-            int edad = Integer.parseInt(txtEdad.getText());
-            
-            String estrato = txtEstrato.getText();
-            String estadoCivil = txtEstadoCivil.getText();
-            boolean cabeza = chkCabezaHogar.isSelected();
-            String tipoSeleccionado = (String) cmbTipo.getSelectedItem();
 
-            boolean guardado = false;
 
-            if ("Profesional de Salud".equals(tipoSeleccionado)) {
-                String institucion = txtInstitucion.getText();
-                String especialidad = txtEspecialidad.getText();
-
-                ProfesionalSalud prof = new ProfesionalSalud(tipoDoc, documento, nombre, apellido, direccion, telefono, edad, estrato, estadoCivil, cabeza, institucion, especialidad, null);
-                
-                if (!txtMedicina1.getText().isEmpty()) {
-                    prof.getMedicina().add(new Medicina(Integer.parseInt(txtMedicina1.getText())));
-                }
-
-                guardado = gestor.agregarPersona(prof);
-
-            } else if ("Docente".equals(tipoSeleccionado)) {
-                String institucion = txtInstitucion.getText();
-                String nivel = (String) cmbNivel.getSelectedItem();
-
-                Docente doc = new Docente(tipoDoc, documento, nombre, apellido, direccion, telefono, edad, estrato, estadoCivil, cabeza, institucion, nivel);
-                guardado = gestor.agregarPersona(doc);
-
-            } else if ("Ciudadano".equals(tipoSeleccionado)) {
-                Ciudadano ciudadanoObj = new Ciudadano(tipoDoc, documento, nombre, apellido, direccion, telefono, edad, estrato, estadoCivil, cabeza, null);
-
-                if (!txtMedicina2.getText().isEmpty()) {
-                    ciudadanoObj.getMedicina().add(new Medicina(Integer.parseInt(txtMedicina2.getText())));
-                }
-
-                if (!txtCanastaFamiliar.getText().isEmpty()) {
-                    ciudadanoObj.getProductos().add(new ProductosCanasta(Integer.parseInt(txtCanastaFamiliar.getText())));
-                }
-
-                guardado = gestor.agregarPersona(ciudadanoObj);
-            }
-
-            if (guardado) {
-                JOptionPane.showMessageDialog(this, "¡Persona registrada con éxito!");
-                limpiarFormulario();
-            }
-            
-        } else if (c.equals("Limpiar")) {
-            limpiarFormulario();
-            
-        } else if (c.equals("Buscar")) {
-            String docBuscado = txtDocumento.getText();
-            Persona encontrada = gestor.buscarPersona(docBuscado);
-            
-            if (encontrada != null) {
-                JOptionPane.showMessageDialog(this, "¡Persona encontrada!\n" + encontrada.toString());
-            } else {
-                JOptionPane.showMessageDialog(this, "No se encontró ninguna persona con ese documento.");
-            }
-        }
-    }
-
-}
