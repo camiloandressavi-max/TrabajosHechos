@@ -4,14 +4,7 @@ import Vista.*;
 import Modelo.*;
 import java.awt.event.*;
 
-/**
- * Write a description of class Control here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Control implements ActionListener,ItemListener
-{
+public class Control implements ActionListener, ItemListener {
     private GestorPersona modelo;
     private JFTSalud vista;
     
@@ -45,6 +38,7 @@ public class Control implements ActionListener,ItemListener
     private JPanel profSalud;
     private JPanel docente;
     private JPanel ciudadano;
+
     public Control(JFTSalud vista, GestorPersona modelo) {
         this.vista = vista;
         this.modelo = modelo;
@@ -111,46 +105,101 @@ public class Control implements ActionListener,ItemListener
             }
         }
     }
+
+    public void limpiarFormulario() {
+        cmbTipoDoc.setSelectedIndex(0);
+        txtDocumento.setText("");
+        txtNombre.setText("");
+        txtApellido.setText("");
+        txtDireccion.setText("");
+        txtTelefono.setText("");
+        txtEdad.setText("");
+        txtEstrato.setText("");
+        txtEstadoCivil.setText("");
+        cmbTipo.setSelectedIndex(0);
+        txtInstitucion.setText("");
+        txtEspecialidad.setText("");
+        cmbNivel.setSelectedIndex(0);
+        chkCabezaHogar.setSelected(false);
+        
+        txtBioseguridad.setText("");
+        txtMedicina1.setText("");
+        txtImplementosTec.setText("");
+        txtServicioInternet.setText("");
+        txtMedicina2.setText("");
+        txtCanastaFamiliar.setText("");
+    }
     
     @Override
-public void actionPerformed(ActionEvent e) {
-    if (e.getSource() == btnGuardar) {
-        String documentoBuscado= txtDocumento.getText();
-        
-        if(modelo.buscarPersona(documentoBuscado)==null){
-            JOptionPane.showMessageDialog(vista,
-        }
-    } else if (e.getSource() == btnLimpiar) {
-        cmbTipoDoc.setSelectedIndex(0);
-    txtDocumento.setText("");
-    txtNombre.setText("");
-    txtApellido.setText("");
-    txtDireccion.setText("");
-    txtTelefono.setText("");
-    txtEdad.setText("");
-    txtEstrato.setText("");
-    txtEstadoCivil.setText("");
-    cmbTipo.setSelectedIndex(0);
-    txtInstitucion.setText("");
-    txtEspecialidad.setText("");
-    cmbNivel.setSelectedIndex(0);
-    chkCabezaHogar.setSelected(false);
-    
-    txtBioseguridad.setText("");
-    txtMedicina1.setText("");
-    txtImplementosTec.setText("");
-    txtServicioInternet.setText("");
-    txtMedicina2.setText("");
-    txtCanastaFamiliar.setText("");
-    } else if (e.getSource() == btnBuscar) {
-        String docBuscado = txtDocumento.getText();
-        Persona encontrada = modelo.buscarPersona(docBuscado);
-        
-        if (encontrada != null) {
-            JOptionPane.showMessageDialog(vista, "¡Persona encontrada!\n" + encontrada.toString());
-        } else {
-            JOptionPane.showMessageDialog(vista, "No se encontró ninguna persona con ese documento.");
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource().equals(btnGuardar)) {
+            if (txtDocumento.getText().isEmpty() || txtNombre.getText().isEmpty() || txtEdad.getText().isEmpty()) {
+                JOptionPane.showMessageDialog(vista, "Complete los datos básicos obligatorios.");
+                return;
+            }
+
+            String tipoDoc = (String) cmbTipoDoc.getSelectedItem();
+            String doc = txtDocumento.getText();
+            String nom = txtNombre.getText();
+            String ape = txtApellido.getText();
+            String dir = txtDireccion.getText();
+            String tel = txtTelefono.getText();
+            int edad = Integer.parseInt(txtEdad.getText());
+            String est = txtEstrato.getText();
+            String civ = txtEstadoCivil.getText();
+            boolean cab = chkCabezaHogar.isSelected();
+            String tipo = (String) cmbTipo.getSelectedItem();
+
+            Persona p = null;
+
+            if ("Profesional de Salud".equals(tipo)) {
+                ProfesionalSalud ps = new ProfesionalSalud(tipoDoc, doc, nom, ape, dir, tel, edad, est, civ, cab, txtInstitucion.getText(), txtEspecialidad.getText(), null);
+                if (!txtBioseguridad.getText().isEmpty()) {
+                    ps.getBioseguridad().add(new ElementoBioseguridad(Integer.parseInt(txtBioseguridad.getText())));
+                }
+                if (!txtMedicina1.getText().isEmpty()) {
+                    ps.getMedicina().add(new Medicina(Integer.parseInt(txtMedicina1.getText())));
+                }
+                p = ps;
+
+            } else if ("Docente".equals(tipo)) {
+                Docente d = new Docente(tipoDoc, doc, nom, ape, dir, tel, edad, est, civ, cab, txtInstitucion.getText(), (String) cmbNivel.getSelectedItem());
+                if (!txtImplementosTec.getText().isEmpty()) {
+                    d.getTecno().add(new ImplementosTecnologicos(Integer.parseInt(txtImplementosTec.getText())));
+                }
+                if (!txtServicioInternet.getText().isEmpty()) {
+                    d.getServicio().add(new ServicioInternet(Integer.parseInt(txtServicioInternet.getText())));
+                }
+                p = d;
+
+            } else if ("Ciudadano".equals(tipo)) {
+                Ciudadano c = new Ciudadano(tipoDoc, doc, nom, ape, dir, tel, edad, est, civ, cab, null);
+                if (!txtMedicina2.getText().isEmpty()) {
+                    c.getMedicina().add(new Medicina(Integer.parseInt(txtMedicina2.getText())));
+                }
+                if (!txtCanastaFamiliar.getText().isEmpty()) {
+                    c.getProductos().add(new ProductosCanasta(Integer.parseInt(txtCanastaFamiliar.getText())));
+                }
+                p = c;
+            }
+
+            if (modelo.guardar(p)) {
+                JOptionPane.showMessageDialog(vista, "Guardado con éxito");
+                limpiarFormulario();
+            } else {
+                JOptionPane.showMessageDialog(vista, "No se pudo guardar");
+            }
+
+        } else if (e.getSource().equals(btnLimpiar)) {
+            limpiarFormulario();
+
+        } else if (e.getSource().equals(btnBuscar)) {
+            Persona encontrada = modelo.buscarPersona(txtDocumento.getText());
+            if (encontrada != null) {
+                JOptionPane.showMessageDialog(vista, encontrada.toString());
+            } else {
+                JOptionPane.showMessageDialog(vista, "No encontrado");
+            }
         }
     }
-}
 }

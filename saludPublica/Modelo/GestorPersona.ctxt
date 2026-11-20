@@ -1,9 +1,11 @@
 #BlueJ class context
-#Wed Oct 28 00:17:25 COT 2026
+#Thu Nov 19 23:53:43 COT 2026
 comment0.target=GestorPersona
 comment1.target=GestorPersona()
 comment2.params=p
-comment2.target=boolean agregarPersona(Persona)
-comment3.params=documentoBuscado
-comment3.target=Persona buscarPersona(java.lang.String)
-numComments=4
+comment2.target=boolean guardar(Persona)
+comment3.params=p
+comment3.target=boolean agregarPersona(Persona)
+comment4.params=documentoBuscado
+comment4.target=Persona buscarPersona(java.lang.String)
+numComments=5
