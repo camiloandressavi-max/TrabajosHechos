@@ -1,10 +1,27 @@
 #BlueJ class context
-#Wed Nov 04 09:33:45 COT 2026
+#Sat Nov 21 01:24:42 COT 2026
 comment0.target=Cardenal
-comment0.text=\r\n Write a description of class Cardenal here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
 comment1.target=Cardenal()
-comment1.text=\r\n Constructor for objects of class Cardenal\r\n
-comment2.params=y
-comment2.target=int sampleMethod(int)
-comment2.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
-numComments=3
+comment10.target=java.lang.String getNombre()
+comment11.params=nombre
+comment11.target=void setNombre(java.lang.String)
+comment12.target=int getEdad()
+comment13.params=edad
+comment13.target=void setEdad(int)
+comment14.target=boolean isPoseeProblemas()
+comment15.params=poseeProblemas
+comment15.target=void setPoseeProblemas(boolean)
+comment16.target=java.lang.String toString()
+comment2.params=pais tipo cedula nombre edad poseeProblemas
+comment2.target=Cardenal(Pais, Tipo, java.lang.String, java.lang.String, int, boolean)
+comment3.target=boolean esElector()
+comment4.target=Pais getPais()
+comment5.params=pais
+comment5.target=void setPais(Pais)
+comment6.target=Tipo getTipo()
+comment7.params=tipo
+comment7.target=void setTipo(Tipo)
+comment8.target=java.lang.String getCedula()
+comment9.params=cedula
+comment9.target=void setCedula(java.lang.String)
+numComments=17

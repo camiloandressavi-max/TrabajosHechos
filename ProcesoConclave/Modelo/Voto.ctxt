@@ -1,10 +1,14 @@
 #BlueJ class context
-#Wed Nov 04 09:33:45 COT 2026
+#Sat Nov 21 01:24:42 COT 2026
 comment0.target=Voto
 comment0.text=\r\n Write a description of class Voto here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
 comment1.target=Voto()
-comment1.text=\r\n Constructor for objects of class Voto\r\n
-comment2.params=y
-comment2.target=int sampleMethod(int)
-comment2.text=\r\n An example of a method - replace this comment with your own\r\n \r\n @param  y   a sample parameter for a method\r\n @return     the sum of x and y \r\n
-numComments=3
+comment2.params=elector candidato
+comment2.target=Voto(Cardenal, Cardenal)
+comment3.target=Cardenal getElector()
+comment4.params=elector
+comment4.target=void setElector(Cardenal)
+comment5.target=Cardenal getCandidato()
+comment6.params=candidato
+comment6.target=void setCandidato(Cardenal)
+numComments=7

@@ -1,35 +1,25 @@
 package Modelo;
 
+public class Pais {
+    private String nombre;
 
-/**
- * Write a description of class Pais here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Pais
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Pais
-     */
-    public Pais()
-    {
-        // initialise instance variables
-        x = 0;
+    public Pais() {
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Pais(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
     }
 }

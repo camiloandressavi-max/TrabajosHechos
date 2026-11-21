@@ -9,27 +9,32 @@ package Modelo;
  */
 public class Voto
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Voto
-     */
-    public Voto()
-    {
-        // initialise instance variables
-        x = 0;
+    private Cardenal elector;
+    private Cardenal candidato;
+    
+    public Voto() {
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public Voto(Cardenal elector, Cardenal candidato) {
+        this.elector = elector;
+        this.candidato = candidato;
     }
+
+    public Cardenal getElector() {
+        return elector;
+    }
+
+    public void setElector(Cardenal elector) {
+        this.elector = elector;
+    }
+
+    public Cardenal getCandidato() {
+        return candidato;
+    }
+
+    public void setCandidato(Cardenal candidato) {
+        this.candidato = candidato;
+    }
+
+    
 }

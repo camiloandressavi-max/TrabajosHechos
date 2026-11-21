@@ -1,7 +1,36 @@
 #BlueJ class context
-#Wed Nov 04 09:49:28 COT 2026
+#Sat Nov 21 01:18:08 COT 2026
 comment0.target=JFVotacion
-comment0.text=\r\n Write a description of class JFVotacion here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
 comment1.target=JFVotacion()
+comment10.params=cmbLista
+comment10.target=void setCmbLista(javax.swing.JComboBox)
+comment11.target=javax.swing.JButton getBtnVotar()
+comment12.params=btnVotar
+comment12.target=void setBtnVotar(javax.swing.JButton)
+comment13.target=javax.swing.JLabel getLblRonda()
+comment14.params=lblRonda
+comment14.target=void setLblRonda(javax.swing.JLabel)
+comment15.target=javax.swing.JTextField getTxtRonda()
+comment16.params=txtRonda
+comment16.target=void setTxtRonda(javax.swing.JTextField)
+comment17.target=javax.swing.JTextArea getTxtArea()
+comment18.params=txtArea
+comment18.target=void setTxtArea(javax.swing.JTextArea)
+comment19.target=javax.swing.JButton getBtnResultados()
 comment2.target=void crearInterfaz()
-numComments=3
+comment20.params=btnResultados
+comment20.target=void setBtnResultados(javax.swing.JButton)
+comment21.target=javax.swing.JButton getBtnRonda()
+comment22.params=btnRonda
+comment22.target=void setBtnRonda(javax.swing.JButton)
+comment3.target=javax.swing.JTextField getTxtCandidato()
+comment4.params=txtCandidato
+comment4.target=void setTxtCandidato(javax.swing.JTextField)
+comment5.target=javax.swing.JButton getBtnCandidato()
+comment6.params=btnCandidato
+comment6.target=void setBtnCandidato(javax.swing.JButton)
+comment7.target=javax.swing.JLabel getLblLista()
+comment8.params=lblLista
+comment8.target=void setLblLista(javax.swing.JLabel)
+comment9.target=javax.swing.JComboBox getCmbLista()
+numComments=23

@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sat Nov 21 01:24:42 COT 2026
+comment0.target=Ronda
+comment1.target=Ronda()
+comment10.params=voto
+comment10.target=void setVoto(java.util.ArrayList)
+comment2.params=jornada numero fecha
+comment2.target=Ronda(java.lang.String, int, Fecha)
+comment3.target=java.lang.String getJornada()
+comment4.params=jornada
+comment4.target=void setJornada(java.lang.String)
+comment5.target=int getNumero()
+comment6.params=numero
+comment6.target=void setNumero(int)
+comment7.target=Fecha getFecha()
+comment8.params=fecha
+comment8.target=void setFecha(Fecha)
+comment9.target=java.util.ArrayList getVoto()
+numComments=11

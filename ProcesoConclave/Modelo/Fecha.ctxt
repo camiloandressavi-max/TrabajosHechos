@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sat Nov 21 00:13:08 COT 2026
+comment0.target=Fecha
+comment1.target=Fecha()
+comment2.params=dia mes a\u00F1o
+comment2.target=Fecha(int, int, int)
+comment3.target=int getA\u00F1o()
+comment4.params=a\u00F1o
+comment4.target=void setA\u00F1o(int)
+comment5.target=int getMes()
+comment6.params=mes
+comment6.target=void setMes(int)
+comment7.target=int getDia()
+comment8.params=dia
+comment8.target=void setDia(int)
+comment9.target=java.lang.String toString()
+numComments=10

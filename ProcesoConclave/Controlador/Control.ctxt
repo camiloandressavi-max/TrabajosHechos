@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sat Nov 21 01:33:37 COT 2026
+comment0.target=Control
+comment1.params=vista modelo
+comment1.target=Control(Vista.JFVotacion, Modelo.CatedralElectoral)
+comment2.params=e
+comment2.target=void actionPerformed(java.awt.event.ActionEvent)
+numComments=3
