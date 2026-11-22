@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sun Nov 22 14:00:11 COT 2026
+comment0.target=Animal
+comment1.target=Animal()
+comment10.params=edad
+comment10.target=void setEdad(int)
+comment11.target=java.lang.String getCualidades()
+comment12.params=cualidades
+comment12.target=void setCualidades(java.lang.String)
+comment13.target=Tipo getTipo()
+comment14.params=tipo
+comment14.target=void setTipo(Tipo)
+comment15.target=java.lang.String toString()
+comment2.params=identificacion nombre genero edad cualidades tipo
+comment2.target=Animal(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, Tipo)
+comment3.target=java.lang.String getIdentificacion()
+comment4.params=identificacion
+comment4.target=void setIdentificacion(java.lang.String)
+comment5.target=java.lang.String getNombre()
+comment6.params=nombre
+comment6.target=void setNombre(java.lang.String)
+comment7.target=java.lang.String getGenero()
+comment8.params=genero
+comment8.target=void setGenero(java.lang.String)
+comment9.target=int getEdad()
+numComments=16

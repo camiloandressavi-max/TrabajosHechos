@@ -1,0 +1,33 @@
+#BlueJ class context
+#Sun Nov 22 14:00:11 COT 2026
+comment0.target=CandidatoRepresentante
+comment1.target=CandidatoRepresentante()
+comment10.params=grupo
+comment10.target=void setGrupo(java.lang.String)
+comment11.target=java.lang.String getLema()
+comment12.params=lema
+comment12.target=void setLema(java.lang.String)
+comment13.target=int getNumeroDeTarjeton()
+comment14.params=numeroDeTarjeton
+comment14.target=void setNumeroDeTarjeton(int)
+comment15.target=java.lang.String getFormula()
+comment16.params=formula
+comment16.target=void setFormula(java.lang.String)
+comment17.target=int getVotos()
+comment18.params=votos
+comment18.target=void setVotos(int)
+comment19.target=void sumarVoto()
+comment2.params=nombre apellido grado grupo lema numeroDeTarjeton formula
+comment2.target=CandidatoRepresentante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)
+comment20.target=java.lang.String toString()
+comment3.target=java.lang.String getNombre()
+comment4.params=nombre
+comment4.target=void setNombre(java.lang.String)
+comment5.target=java.lang.String getApellido()
+comment6.params=apellido
+comment6.target=void setApellido(java.lang.String)
+comment7.target=java.lang.String getGrado()
+comment8.params=grado
+comment8.target=void setGrado(java.lang.String)
+comment9.target=java.lang.String getGrupo()
+numComments=21
