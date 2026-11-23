@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sat Nov 21 20:42:21 COT 2026
+comment0.target=Docente
+comment1.target=Docente()
+comment2.params=nombre cedula edad
+comment2.target=Docente(java.lang.String, java.lang.String, int)
+numComments=3

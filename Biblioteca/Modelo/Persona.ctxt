@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sat Nov 21 20:42:21 COT 2026
+comment0.target=Persona
+comment1.target=Persona()
+comment2.params=nombre cedula edad
+comment2.target=Persona(java.lang.String, java.lang.String, int)
+comment3.target=java.lang.String getNombre()
+comment4.params=nombre
+comment4.target=void setNombre(java.lang.String)
+comment5.target=java.lang.String getCedula()
+comment6.params=cedula
+comment6.target=void setCedula(java.lang.String)
+comment7.target=int getEdad()
+comment8.params=edad
+comment8.target=void setEdad(int)
+numComments=9

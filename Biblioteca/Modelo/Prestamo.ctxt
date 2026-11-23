@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sat Nov 21 20:42:21 COT 2026
+comment0.target=Prestamo
+comment1.target=Prestamo()
+comment10.params=persona
+comment10.target=void setPersona(Persona)
+comment11.target=Libro getLibro()
+comment12.params=libro
+comment12.target=void setLibro(Libro)
+comment2.params=fechaPrestamo fechaDevolucion estado persona libro
+comment2.target=Prestamo(Fecha, Fecha, Estado, Persona, Libro)
+comment3.target=Fecha getFechaPrestamo()
+comment4.params=fechaPrestamo
+comment4.target=void setFechaPrestamo(Fecha)
+comment5.target=Fecha getFechaDevolucion()
+comment6.params=fechaDevolucion
+comment6.target=void setFechaDevolucion(Fecha)
+comment7.target=Estado getEstado()
+comment8.params=estado
+comment8.target=void setEstado(Estado)
+comment9.target=Persona getPersona()
+numComments=13

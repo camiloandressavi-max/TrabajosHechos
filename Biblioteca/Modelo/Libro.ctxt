@@ -1,0 +1,23 @@
+#BlueJ class context
+#Sat Nov 21 20:42:21 COT 2026
+comment0.target=Libro
+comment1.target=Libro()
+comment10.params=a\u00F1oPublicacion
+comment10.target=void setA\u00F1oPublicacion(int)
+comment11.target=java.lang.String getEditorial()
+comment12.params=editorial
+comment12.target=void setEditorial(java.lang.String)
+comment13.target=Tipo getTipo()
+comment2.params=titulo autor issn a\u00F1oPublicacion editorial tipo
+comment2.target=Libro(java.lang.String, java.lang.String, int, int, java.lang.String, Tipo)
+comment3.target=java.lang.String getTitulo()
+comment4.params=titulo
+comment4.target=void setTitulo(java.lang.String)
+comment5.target=java.lang.String getAutor()
+comment6.params=autor
+comment6.target=void setAutor(java.lang.String)
+comment7.target=int getIssn()
+comment8.params=issn
+comment8.target=void setIssn(int)
+comment9.target=int getA\u00F1oPublicacion()
+numComments=14

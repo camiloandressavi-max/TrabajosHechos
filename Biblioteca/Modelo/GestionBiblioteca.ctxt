@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sat Nov 21 21:07:23 COT 2026
+comment0.target=GestionBiblioteca
+comment1.target=GestionBiblioteca()
+comment2.target=java.util.ArrayList getUsuarios()
+comment3.params=usuarios
+comment3.target=void setUsuarios(java.util.ArrayList)
+comment4.target=java.util.ArrayList getPrestamos()
+comment5.params=prestamos
+comment5.target=void setPrestamos(java.util.ArrayList)
+comment6.target=java.util.ArrayList getLibros()
+comment7.params=libros
+comment7.target=void setLibros(java.util.ArrayList)
+comment8.params=p
+comment8.target=java.lang.String devolucion(Prestamo)
+numComments=9
