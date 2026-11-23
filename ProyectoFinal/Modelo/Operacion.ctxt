@@ -1,0 +1,31 @@
+#BlueJ class context
+#Wed Nov 18 09:19:13 COT 2026
+comment0.target=Operacion
+comment1.target=Operacion()
+comment10.params=operaciones
+comment10.target=void setOperaciones(java.util.ArrayList)
+comment11.params=departamento nombreMunicipio poblacion codigo
+comment11.target=boolean registrarMunicipios(Departamento, java.lang.String, int, java.lang.String)
+comment12.params=municipio codigo
+comment12.target=boolean anadirIncendio(MunicipiosAfectados, java.lang.String)
+comment13.target=java.lang.String listarMunicipios()
+comment14.params=codigo equipoTotal equipoCertificado
+comment14.target=boolean registrarUnidadesTerrestres(java.lang.String, int, boolean)
+comment15.target=java.lang.String listarUnidadesTerrestres()
+comment16.params=nombre codigo bambiBucket
+comment16.target=boolean registrarHelicopteros(java.lang.String, java.lang.String, boolean)
+comment17.target=java.lang.String listarHelicopteros()
+comment18.params=municipio codigoIncendio unidad fecha
+comment18.target=java.lang.String iniciarOperacion(MunicipiosAfectados, java.lang.String, UnidadOperativa, java.lang.String)
+comment2.params=fecha unidad rescatados
+comment2.target=Operacion(java.lang.String, UnidadOperativa, Rescatados)
+comment3.target=UnidadOperativa getUnidad()
+comment4.target=Rescatados getRescatados()
+comment5.target=java.util.ArrayList getDepartamentos()
+comment6.params=departamentos
+comment6.target=void setDepartamentos(java.util.ArrayList)
+comment7.target=java.util.ArrayList getUnidadesOperativas()
+comment8.params=unidadesOperativas
+comment8.target=void setUnidadesOperativas(java.util.ArrayList)
+comment9.target=java.util.ArrayList getOperaciones()
+numComments=19

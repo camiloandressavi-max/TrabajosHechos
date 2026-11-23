@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sat Nov 14 01:04:23 COT 2026
+comment0.target=Departamento
+comment1.params=nombre
+comment1.target=Departamento(java.lang.String)
+comment2.target=java.lang.String getNombre()
+comment3.params=nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.target=java.util.ArrayList getMunicipios()
+comment5.params=municipios
+comment5.target=void setMunicipios(java.util.ArrayList)
+comment6.target=java.util.ArrayList getCatalogo()
+comment7.target=java.util.ArrayList crearCatalogo()
+comment8.target=java.lang.String toString()
+numComments=9

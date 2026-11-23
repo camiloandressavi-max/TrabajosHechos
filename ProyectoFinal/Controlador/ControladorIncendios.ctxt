@@ -1,0 +1,14 @@
+#BlueJ class context
+#Wed Nov 18 08:24:12 COT 2026
+comment0.target=ControladorIncendios
+comment1.params=modelo ventana
+comment1.target=ControladorIncendios(Modelo.Operacion, Vista.JFTIncendioPrincipal)
+comment2.params=ev
+comment2.target=void itemStateChanged(java.awt.event.ItemEvent)
+comment3.params=ev
+comment3.target=void itemStateChanged(java.awt.event.ItemEvent)
+comment4.params=ev
+comment4.target=void itemStateChanged(java.awt.event.ItemEvent)
+comment5.params=e
+comment5.target=void actionPerformed(java.awt.event.ActionEvent)
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sat Nov 14 11:30:49 COT 2026
+comment0.target=JFTUnidadTerrestre
+comment1.target=JFTUnidadTerrestre()
+comment2.target=java.lang.String getTxtCodigo()
+comment3.target=java.lang.String getTxtCantidad()
+comment4.target=boolean getChkCertificado()
+comment5.target=javax.swing.JButton getBotonRegistrar()
+comment6.target=javax.swing.JButton getBotonListar()
+comment7.params=texto
+comment7.target=void setTxtRespuestasUnidad(java.lang.String)
+numComments=8

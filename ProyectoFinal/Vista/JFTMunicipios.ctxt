@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sat Nov 14 11:30:49 COT 2026
+comment0.target=JFTMunicipios
+comment1.target=JFTMunicipios()
+comment10.target=javax.swing.JButton getBotonAnadirIncendio()
+comment11.params=texto
+comment11.target=void setTxtRespuestas(java.lang.String)
+comment12.target=void mostrarPanelNuevo()
+comment2.target=javax.swing.JComboBox getCmbDepartamento()
+comment3.target=javax.swing.JComboBox getCmbMunicipio()
+comment4.target=java.lang.String getTxtCodigo()
+comment5.target=java.lang.String getTxtPoblacion()
+comment6.target=javax.swing.JButton getBotonRegistrar()
+comment7.target=javax.swing.JButton getBotonListar()
+comment8.target=javax.swing.JComboBox getCmbNuevoMunicipio()
+comment9.target=java.lang.String getTxtNuevoCodigo()
+numComments=13

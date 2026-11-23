@@ -1,0 +1,7 @@
+#BlueJ class context
+#Sat Nov 14 11:30:49 COT 2026
+comment0.target=JFTIncendioPrincipal
+comment1.target=JFTIncendioPrincipal()
+comment2.params=e
+comment2.target=void actionPerformed(java.awt.event.ActionEvent)
+numComments=3

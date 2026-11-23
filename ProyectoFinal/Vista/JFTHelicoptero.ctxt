@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sat Nov 14 11:30:49 COT 2026
+comment0.target=JFTHelicoptero
+comment1.target=JFTHelicoptero()
+comment2.target=java.lang.String getTxtNombre()
+comment3.target=java.lang.String getTxtCodigo()
+comment4.target=boolean getChkBambiBucket()
+comment5.target=javax.swing.JButton getBotonRegistrar()
+comment6.target=javax.swing.JButton getBotonListar()
+comment7.params=texto
+comment7.target=void setTxtRespuestasHelicoptero(java.lang.String)
+numComments=8

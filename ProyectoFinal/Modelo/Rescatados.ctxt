@@ -1,0 +1,18 @@
+#BlueJ class context
+#Sat Oct 17 23:42:31 COT 2026
+comment0.target=Rescatados
+comment0.text=\r\n Write a description of class Afectados here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=noAfectados damnificados muertos
+comment1.target=Rescatados(int, int, int)
+comment2.target=int getNoAfectados()
+comment3.params=noAfectados
+comment3.target=void setNoAfectados(int)
+comment4.target=int getDamnificados()
+comment5.params=damnificados
+comment5.target=void setDamnificados(int)
+comment6.target=int getMuertos()
+comment7.params=muertos
+comment7.target=void setMuertos(int)
+comment8.target=int total()
+comment9.target=java.lang.String toString()
+numComments=10

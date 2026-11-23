@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sat Nov 14 11:30:49 COT 2026
+comment0.target=JFTIniciarOperacion
+comment1.target=JFTIniciarOperacion()
+comment2.target=java.lang.String getTxtFecha()
+comment3.target=javax.swing.JComboBox getCmbDepartamento()
+comment4.target=javax.swing.JComboBox getCmbMunicipio()
+comment5.target=javax.swing.JComboBox getCmbIncendio()
+comment6.target=javax.swing.JComboBox getCmbUnidad()
+comment7.target=javax.swing.JComboBox getCmbHelicoptero()
+comment8.target=javax.swing.JButton getBotonIniciar()
+comment9.params=texto
+comment9.target=void setTxtRespuestasOperacion(java.lang.String)
+numComments=10

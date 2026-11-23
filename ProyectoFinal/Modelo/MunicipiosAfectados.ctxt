@@ -1,0 +1,20 @@
+#BlueJ class context
+#Sat Nov 14 01:29:26 COT 2026
+comment0.target=MunicipiosAfectados
+comment0.text=\r\n Write a description of class MunicipiosAfectados here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=nombreMunicipio poblacion nivelAlerta
+comment1.target=MunicipiosAfectados(java.lang.String, int, NivelDeAlerta)
+comment10.target=java.lang.String toString()
+comment2.target=java.lang.String getNombreMunicipio()
+comment3.params=nombreMunicipio
+comment3.target=void setNombreMunicipio(java.lang.String)
+comment4.target=int getPoblacion()
+comment5.params=poblacion
+comment5.target=void setPoblacion(int)
+comment6.target=NivelDeAlerta getNivelAlerta()
+comment7.params=nivelAlerta
+comment7.target=void setNivelAlerta(NivelDeAlerta)
+comment8.target=java.util.ArrayList getIncendios()
+comment9.params=incendios
+comment9.target=void setIncendios(java.util.ArrayList)
+numComments=11

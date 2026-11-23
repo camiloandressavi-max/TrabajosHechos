@@ -1,0 +1,12 @@
+#BlueJ class context
+#Fri Nov 13 08:25:45 COT 2026
+comment0.target=Incendio
+comment0.text=\r\n Write a description of class Incendio here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.target=Incendio()
+comment2.params=codigo
+comment2.target=Incendio(java.lang.String)
+comment3.target=java.lang.String getCodigo()
+comment4.params=codigo
+comment4.target=void getCodigo(java.lang.String)
+comment5.target=java.lang.String toString()
+numComments=6
