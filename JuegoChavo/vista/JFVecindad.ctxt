@@ -1,0 +1,25 @@
+#BlueJ class context
+#Sun Nov 22 21:35:01 COT 2026
+comment0.target=JFVecindad
+comment1.target=JFVecindad()
+comment10.target=javax.swing.JTextField getTxtMensaje()
+comment11.target=javax.swing.JComboBox getCmbDireccion()
+comment12.target=javax.swing.JComboBox getCmbOtroPersonaje()
+comment13.target=javax.swing.JButton getBtnHablar()
+comment14.target=javax.swing.JButton getBtnMover()
+comment15.target=javax.swing.JButton getBtnAccionEspecial()
+comment16.target=javax.swing.JButton getBtnInteractuar()
+comment17.target=javax.swing.JButton getBtnUsarObjeto()
+comment18.target=javax.swing.JButton getBtnLimpiar()
+comment19.target=javax.swing.JButton getBtnSalir()
+comment2.target=javax.swing.JList getListaPersonajes()
+comment20.target=javax.swing.JTextArea getAreaRegistro()
+comment21.target=javax.swing.JLabel getLblMensaje()
+comment3.target=javax.swing.DefaultListModel getModeloPersonajes()
+comment4.target=javax.swing.JList getListaObjetos()
+comment5.target=javax.swing.DefaultListModel getModeloObjetos()
+comment6.target=javax.swing.JTextField getTxtNombre()
+comment7.target=javax.swing.JTextField getTxtEdad()
+comment8.target=javax.swing.JTextField getTxtPersonalidad()
+comment9.target=javax.swing.JTextField getTxtRol()
+numComments=22

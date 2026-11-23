@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=Quico
+comment1.target=Quico()
+comment2.target=java.lang.String llorar()
+comment3.target=java.lang.String accionEspecial()
+comment4.params=otro
+comment4.target=java.lang.String interactuarCon(Personaje)
+numComments=5

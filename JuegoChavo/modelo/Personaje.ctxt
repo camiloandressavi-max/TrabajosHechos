@@ -1,0 +1,28 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=Personaje
+comment1.params=nombre edad personalidad rol
+comment1.target=Personaje(java.lang.String, java.lang.Integer, java.lang.String, java.lang.String)
+comment10.params=mensaje
+comment10.target=java.lang.String hablar(java.lang.String)
+comment11.params=direccion
+comment11.target=java.lang.String mover(java.lang.String)
+comment12.target=java.lang.String accionEspecial()
+comment13.params=otro
+comment13.target=java.lang.String interactuarCon(Personaje)
+comment14.params=objeto
+comment14.target=java.lang.String interactuar(ObjetoInteractivo)
+comment15.target=java.lang.String toString()
+comment2.target=java.lang.String getNombre()
+comment3.params=nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.target=java.lang.Integer getEdad()
+comment5.params=edad
+comment5.target=void setEdad(java.lang.Integer)
+comment6.target=java.lang.String getPersonalidad()
+comment7.params=personalidad
+comment7.target=void setPersonalidad(java.lang.String)
+comment8.target=java.lang.String getRol()
+comment9.params=rol
+comment9.target=void setRol(java.lang.String)
+numComments=16

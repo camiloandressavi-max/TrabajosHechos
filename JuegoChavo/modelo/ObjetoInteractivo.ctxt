@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=ObjetoInteractivo
+comment1.params=nombre descripcion
+comment1.target=ObjetoInteractivo(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getNombre()
+comment3.params=nombre
+comment3.target=void setNombre(java.lang.String)
+comment4.target=java.lang.String getDescripcion()
+comment5.params=descripcion
+comment5.target=void setDescripcion(java.lang.String)
+comment6.params=personaje
+comment6.target=java.lang.String usar(Personaje)
+comment7.target=java.lang.String toString()
+numComments=8

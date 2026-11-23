@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=DonRamon
+comment1.target=DonRamon()
+comment2.params=nombre edad personalidad rol
+comment2.target=DonRamon(java.lang.String, java.lang.Integer, java.lang.String, java.lang.String)
+comment3.target=java.lang.String evadirCobroRenta()
+comment4.target=java.lang.String accionEspecial()
+comment5.params=otro
+comment5.target=java.lang.String interactuarCon(Personaje)
+numComments=6

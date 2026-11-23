@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Nov 22 21:36:24 COT 2026
+comment0.target=Control
+comment1.params=modelo vista
+comment1.target=Control(modelo.Vecindad, vista.JFVecindad)
+comment2.params=e
+comment2.target=void valueChanged(javax.swing.event.ListSelectionEvent)
+comment3.params=e
+comment3.target=void actionPerformed(java.awt.event.ActionEvent)
+comment4.target=void cargarListas()
+comment5.target=modelo.Personaje personajeSeleccionado()
+comment6.target=void mostrarDatosPersonaje()
+comment7.params=texto
+comment7.target=void registrar(java.lang.String)
+comment8.params=texto
+comment8.target=void mensaje(java.lang.String)
+numComments=9

@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=Casa
+comment1.target=Casa()
+comment2.params=nombre numero propietario
+comment2.target=Casa(java.lang.String, java.lang.Integer, java.lang.String)
+comment3.target=java.lang.Integer getNumero()
+comment4.params=numero
+comment4.target=void setNumero(java.lang.Integer)
+comment5.target=java.lang.String getPropietario()
+comment6.params=propietario
+comment6.target=void setPropietario(java.lang.String)
+comment7.params=personaje
+comment7.target=java.lang.String entrar(Personaje)
+comment8.params=personaje
+comment8.target=java.lang.String usar(Personaje)
+numComments=9

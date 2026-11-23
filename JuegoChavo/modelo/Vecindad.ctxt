@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=Vecindad
+comment1.target=Vecindad()
+comment2.params=p
+comment2.target=void agregarPersonaje(Personaje)
+comment3.params=obj
+comment3.target=void agregarObjeto(ObjetoInteractivo)
+comment4.target=java.util.ArrayList getPersonajes()
+comment5.target=java.util.ArrayList getObjetos()
+comment6.params=nombre
+comment6.target=Personaje buscarPersonaje(java.lang.String)
+comment7.target=java.lang.String mostrarPersonajes()
+numComments=8

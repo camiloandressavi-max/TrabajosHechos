@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Nov 22 21:37:02 COT 2026
+comment0.target=Florinda
+comment1.target=Florinda()
+comment2.target=java.lang.String darBofetada()
+comment3.target=java.lang.String accionEspecial()
+comment4.params=otro
+comment4.target=java.lang.String interactuarCon(Personaje)
+numComments=5
