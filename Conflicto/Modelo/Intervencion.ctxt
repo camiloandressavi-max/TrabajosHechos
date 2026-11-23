@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=Intervencion
+comment1.params=grupo conflicto fechaIncorporacion fechaSalida
+comment1.target=Intervencion(GrupoArmado, Conflicto, Fecha, Fecha)
+comment10.target=TipoAyuda getAyuda()
+comment11.target=java.lang.String getPeriodo()
+comment2.params=organizacion conflicto fechaIncorporacion fechaSalida numDespliegue ayuda
+comment2.target=Intervencion(OrganizacionMediadora, Conflicto, Fecha, Fecha, int, TipoAyuda)
+comment3.target=boolean esGrupo()
+comment4.target=OrganizacionMediadora getOrganizacion()
+comment5.target=GrupoArmado getGrupo()
+comment6.target=Conflicto getConflicto()
+comment7.target=Fecha getFechaIncorporacion()
+comment8.target=Fecha getFechaSalida()
+comment9.target=int getNumDespliegue()
+numComments=12

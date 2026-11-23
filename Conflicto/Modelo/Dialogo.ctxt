@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=Dialogo
+comment1.params=lider organizacion fechaDialogo
+comment1.target=Dialogo(LiderPolitico, OrganizacionMediadora, Fecha)
+comment2.target=LiderPolitico getLider()
+comment3.target=OrganizacionMediadora getOrganizacion()
+comment4.target=Fecha getFechaDialogo()
+numComments=5

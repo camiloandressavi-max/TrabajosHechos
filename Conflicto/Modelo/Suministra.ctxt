@@ -1,0 +1,10 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=Suministra
+comment1.params=traficante grupo arma numeroArmas
+comment1.target=Suministra(Traficante, GrupoArmado, TipoArma, int)
+comment2.target=Traficante getTraficante()
+comment3.target=GrupoArmado getGrupo()
+comment4.target=TipoArma getArma()
+comment5.target=int getNumeroArmas()
+numComments=6

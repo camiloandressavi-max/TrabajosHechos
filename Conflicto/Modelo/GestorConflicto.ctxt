@@ -1,0 +1,35 @@
+#BlueJ class context
+#Sun Nov 22 21:29:09 COT 2026
+comment0.target=GestorConflicto
+comment1.target=GestorConflicto()
+comment10.params=i
+comment10.target=void agregarIntervencion(Intervencion)
+comment11.params=s
+comment11.target=boolean agregarSuministro(Suministra)
+comment12.params=d
+comment12.target=void agregarDialogo(Dialogo)
+comment13.params=c
+comment13.target=int contarGrupos(Conflicto)
+comment14.params=c
+comment14.target=boolean conflictoValido(Conflicto)
+comment15.params=o
+comment15.target=int totalDesplegados(OrganizacionMediadora)
+comment16.params=c
+comment16.target=java.lang.String describirConflicto(Conflicto)
+comment17.params=g
+comment17.target=java.lang.String describirGrupo(GrupoArmado)
+comment18.target=java.lang.String describirDialogos()
+comment2.target=java.util.ArrayList getConflictos()
+comment3.target=java.util.ArrayList getGrupos()
+comment4.target=java.util.ArrayList getOrganizaciones()
+comment5.params=c
+comment5.target=boolean agregarConflicto(Conflicto)
+comment6.params=codigo
+comment6.target=Conflicto buscarConflicto(int)
+comment7.params=g
+comment7.target=boolean agregarGrupo(GrupoArmado)
+comment8.params=o
+comment8.target=boolean agregarOrganizacion(OrganizacionMediadora)
+comment9.params=t
+comment9.target=void agregarTraficante(Traficante)
+numComments=19

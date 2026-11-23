@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=Division
+comment1.params=consecutivo barcos aviones hombres tanques bajas
+comment1.target=Division(int, int, int, int, int, int)
+comment10.target=java.lang.String toString()
+comment2.params=jefe
+comment2.target=boolean agregarJefe(JefeMilitar)
+comment3.target=int getConsecutivo()
+comment4.target=int getBarcos()
+comment5.target=int getAviones()
+comment6.target=int getHombres()
+comment7.target=int getTanques()
+comment8.target=int getBajas()
+comment9.target=java.util.ArrayList getJefes()
+numComments=11

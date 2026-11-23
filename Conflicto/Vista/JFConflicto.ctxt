@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sun Nov 22 21:27:25 COT 2026
+comment0.target=JFConflicto
+comment1.target=JFConflicto()
+comment10.target=javax.swing.JScrollPane getScrollResultados()
+comment11.target=javax.swing.JTextArea getCampoTexto()
+comment2.target=javax.swing.JLabel getLblTitulo()
+comment3.target=javax.swing.JLabel getLblConflicto()
+comment4.target=javax.swing.JLabel getLblGrupo()
+comment5.target=javax.swing.JComboBox getCbConflictos()
+comment6.target=javax.swing.JComboBox getCbGrupos()
+comment7.target=javax.swing.JButton getBtnVerConflicto()
+comment8.target=javax.swing.JButton getBtnVerGrupo()
+comment9.target=javax.swing.JButton getBtnVerDialogos()
+numComments=12

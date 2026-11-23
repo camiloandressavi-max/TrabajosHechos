@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=Conflicto
+comment1.params=codigo nombre muertos heridos
+comment1.target=Conflicto(int, java.lang.String, int, int)
+comment10.target=java.lang.String toString()
+comment2.params=pais
+comment2.target=void agregarPais(Pais)
+comment3.target=int getCodigo()
+comment4.target=java.lang.String getNombre()
+comment5.target=java.util.ArrayList getPaises()
+comment6.target=int getMuertos()
+comment7.target=int getHeridos()
+comment8.target=java.lang.String getTipo()
+comment9.target=java.lang.String getDetalle()
+numComments=11

@@ -1,0 +1,19 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=GrupoArmado
+comment1.params=codigo nombre
+comment1.target=GrupoArmado(java.lang.String, java.lang.String)
+comment10.target=java.util.ArrayList getDivisiones()
+comment11.target=java.lang.String toString()
+comment2.params=lider
+comment2.target=void agregarLider(LiderPolitico)
+comment3.params=division
+comment3.target=void agregarDivision(Division)
+comment4.params=division jefe
+comment4.target=boolean agregarJefe(Division, JefeMilitar)
+comment5.target=int sumarBajas()
+comment6.target=boolean cumpleMinimos()
+comment7.target=java.lang.String getCodigo()
+comment8.target=java.lang.String getNombre()
+comment9.target=java.util.ArrayList getLideres()
+numComments=12

@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Nov 22 21:28:41 COT 2026
+comment0.target=Control
+comment1.params=gestor vista
+comment1.target=Control(Modelo.GestorConflicto, Vista.JFConflicto)
+comment2.params=e
+comment2.target=void actionPerformed(java.awt.event.ActionEvent)
+comment3.target=void cargarDatos()
+comment4.params=c
+comment4.target=void agregar(Modelo.Conflicto)
+comment5.params=g
+comment5.target=void agregar(Modelo.GrupoArmado)
+numComments=6

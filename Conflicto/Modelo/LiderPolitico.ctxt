@@ -1,0 +1,13 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=LiderPolitico
+comment1.params=nombre apodos
+comment1.target=LiderPolitico(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getNombre()
+comment3.target=GrupoArmado getGrupo()
+comment4.params=grupo
+comment4.target=void setGrupo(GrupoArmado)
+comment5.target=java.lang.String getCodigoGrupo()
+comment6.target=java.lang.String getApodos()
+comment7.target=java.lang.String toString()
+numComments=8

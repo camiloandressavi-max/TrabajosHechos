@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sun Nov 22 21:27:51 COT 2026
+comment0.target=OrganizacionMediadora
+comment1.params=codigo nombre tipo dependencia
+comment1.target=OrganizacionMediadora(java.lang.String, java.lang.String, TipoOrganizacion, OrganizacionMediadora)
+comment2.target=java.lang.String getCodigo()
+comment3.target=java.lang.String getNombre()
+comment4.target=TipoOrganizacion getTipo()
+comment5.target=OrganizacionMediadora getDependencia()
+comment6.target=java.lang.String toString()
+numComments=7
